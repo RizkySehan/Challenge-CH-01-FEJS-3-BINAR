@@ -1,0 +1,108 @@
+:root {
+  --hijau: #5cb85f;
+  --biru: #0d28a6;
+}
+
+body {
+  font-family: helvetica;
+}
+
+.offcanvas-body .navbar-nav .nav-item .nav-link {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-right: 0.8rem;
+}
+
+.offcanvas-body .navbar-nav .nav-item .button-navbar {
+  background-color: var(--hijau);
+  color: #fff;
+  border-radius: 2px;
+  border: var(--hijau);
+  height: 40px;
+  padding: 8px 12px;
+}
+
+#hero .container-fluid .row .button-hero,
+#sewa .container .container-sewa .row .button-sewa {
+  background-color: var(--hijau);
+  border: var(--hijau);
+  color: #fff;
+  width: 140px;
+  height: 36px;
+  border-radius: 2px;
+}
+
+.offcanvas-body .navbar-nav .nav-item .button-navbar:hover,
+#hero .container-fluid .row .button-hero:hover,
+#sewa .container .container-sewa .row .button-sewa:hover {
+  opacity: 0.7;
+}
+
+#sewa .container .container-sewa {
+  background-color: var(--biru);
+}
+
+#testimonial .container .loop .star-full {
+  fill: #f9cc00;
+  color: #f9cc00;
+}
+
+/* Media Query */
+
+/* Tablet */
+@media (max-width: 768px) {
+  #offcanvasNavbar {
+    width: 50%;
+  }
+
+  .navbar
+    .container-lg
+    .offcanvas
+    .offcanvas-body
+    .navbar-nav
+    .nav-item
+    .nav-link {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  #hero .container-fluid .row .bg-img {
+    width: 344px;
+    height: 199px;
+  }
+
+  #our-services .container .row .img-services-position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #our-services .container .row .img-services {
+    width: 252px;
+    height: 228px;
+  }
+
+  #testimonial .container .loop .item .row p {
+    text-align: start;
+    padding-top: 0.5rem;
+  }
+}
+
+/* Mobile Phone */
+/* @media (max-width: 576px) {
+  #our-services .container .row .img-services-position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #our-services .container .row .img-services {
+    width: 252px;
+    height: 228px;
+  }
+
+  #testimonial .container .loop .item .row p {
+    text-align: start;
+    padding-top: 0.5rem;
+  }
+} */
